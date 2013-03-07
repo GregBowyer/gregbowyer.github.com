@@ -5,7 +5,7 @@ AUTHOR = u'Greg Bowyer'
 SITENAME = u'bonsaichicken.org'
 SITEURL = ''
 
-TIMEZONE = 'America/LosAngeles'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
 
