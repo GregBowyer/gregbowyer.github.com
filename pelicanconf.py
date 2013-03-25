@@ -4,7 +4,10 @@
 AUTHOR = u'Greg Bowyer'
 SITENAME = u'bonsaichicken.org'
 SITEURL = 'http://bonsaichicken.org'
+
 FEED_DOMAIN = 'http://bonsaichicken.org'
+FEED_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -18,26 +21,9 @@ THEME = "./themes/livingston/"
 #Navigation sections and relative URL:
 SECTIONS = [('Blog', 'index.html'),
         ('Archive', 'archives.html'),
-        ('Tags', 'tags.html'),
-        ('Projects', 'pages/projects.html'),
-        ('About', 'pages/about-me.html')]
+        ('Tags', 'tags.html')]
 
 NUM_FULL_ARTICLES = 10
-
-# Blogroll
-LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-          ('Python.org', 'http://python.org'),
-          ('Jinja2', 'http://jinja.pocoo.org'),
-          ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
-DEFAULT_PAGINATION = 10
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -48,3 +34,6 @@ GITHUB_URL = 'http://github.com/GregBowyer'
 GOOGLE_ANALYTICS = "UA-25131621-1"
 
 STATIC_PATHS = ['images', 'CNAME']
+
+MAIL_USERNAME = 'gbowyer'
+MAIL_HOST = 'fastmail.co.uk'
