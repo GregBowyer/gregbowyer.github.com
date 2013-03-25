@@ -46,3 +46,5 @@ TWITTER_USERNAME = 'bowyakka'
 #LINKEDIN_URL = 'http://en.linkedin.com/in//en'
 GITHUB_URL = 'http://github.com/GregBowyer'
 GOOGLE_ANALYTICS = "UA-25131621-1"
+
+STATIC_PATHS = ['images', 'CNAME']
